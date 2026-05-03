@@ -64,7 +64,6 @@ html {
 .text {
     text-indent: 25px;
     line-height: 1.6em;
-    text-align: justify;
     margin-bottom: 20px;
     text-align: justify;    /* Justify the text for a more newspaper-like appearance */
     hyphens: auto;        /* Enable automatic hyphenation for better text flow */
@@ -73,4 +72,7 @@ html {
 .text::first-letter {
     font-size: 3.5em;
     font-weight: bold;
+    float: left;
+    margin: 5px 8px 0 0;
+    line-height: 0.85;
 }
